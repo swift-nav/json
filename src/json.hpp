@@ -1740,11 +1740,13 @@ class basic_json
 
                 case value_t::null:
                 {
+                    object = nullptr;
                     break;
                 }
 
                 default:
                 {
+                    object = nullptr;
                     if (t == value_t::null)
                     {
                         JSON_THROW(std::domain_error("961c151d2e87f2686a955a9be24d316f1362bf21 2.1.1")); // LCOV_EXCL_LINE
