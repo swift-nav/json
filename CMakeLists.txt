@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 3.13)
 
 # define the project
 project(nlohmann_json VERSION 2.1.1 LANGUAGES CXX)
